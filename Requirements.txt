@@ -1,0 +1,32 @@
+Functionele eisen:
+
+    De applicatie moet verschillende gebruikersrollen ondersteunen, waaronder beheerders (Hella, Paulus, Robin) en personeelsleden, met elk hun specifieke rechten en toegangsniveaus.
+    Beheerders hebben toegang tot alle functies die de applicatie biedt.	
+    Personeelsleden kunnen alle gegevens m.b.t. productinformatie en voorraad inzien, maar niet wijzigen.
+    De applicatie moet de mogelijkheid bieden om de voorraad van producten (tv's, afstandsbedieningen, muurbeugels, CI-modules) bij te houden, zowel inkomend als uitgaand.
+    Robin moet de mogelijkheid hebben om in de applicatie de locatie van producten in het magazijn bij te houden en te beheren.
+    Paulus moet de inkoop- en verkoopprijzen van producten kunnen invoeren en bijwerken, en deze gegevens moeten gekoppeld zijn aan individuele producten.
+    Paulus moet de status van een product kunnen aanpassen naar "verkocht", na een succesvolle verkoop, waarna dit tevens wordt verwerkt in het gedeelte voor voorraadbeheer.	
+    De applicatie moet de mogelijkheid bieden om aan te geven welke producten met elkaar zijn gekoppeld, bijvoorbeeld dat er slechts één afstandsbediening beschikbaar is per tv-model.
+    De applicatie moet gegevens van personeelsleden opslaan en beheren, inclusief contactinformatie, contracten, en rechten m.b.t. het gebruik van de applicatie.
+    Hella moet in staat zijn om rapporten te genereren op basis van inkoop- en verkoopgegevens, inclusief winstmarges en financiële overzichten.
+    Hella moet van alle ersoneelsleden gegevens kunnen opvragen en aanpassen.	
+    Gebruikers moeten de applicatie kunnen gebruiken op zowel desktop- als mobiele apparaten, zodat ze in realtime toegang hebben tot de gegevens.
+	
+
+Niet-functionele eisen:
+
+    Prestaties: 
+    	De applicatie moet snel en responsief zijn, zodat de productiviteit van de gebruikers niet gehinderd wordt. 
+    	De applicatie moet schaalbaar zijn tot zo'n 500 gebruikers, zonder prestatieverlies en/of grote wijzigingen in de onderliggende code. 
+    Betrouwbaarheid: 
+    	De applicatie moet 24/7 beschikbaar zijn met minimale downtime voor onderhoud of updates.
+    Gebruiksvriendelijkheid: 
+    	De interface moet gebruiksvriendelijk en intuitief zijn, zodat personeelsleden snel kunnen leren hoe ze de applicatie moeten gebruiken. 
+    	Gebruikers moeten in maximaal drie klikken alle details van een bepaald product kunnen bekijken, en of het product op voorraad is.
+    Veiligheid:	
+	De applicatie is beveiligd door middel van het gebruik van inloggegevens. Deze zijn gekoppeld aan de rol en daarmee de rechten van de gebruiker. 
+	Er wordt gebruik gemaakt van JSON webtokens, zodat inactieve gebruikers na een bepaalde tijd automatisch uitgelogd worden.
+	De applicatie moet voldoen aan beveiligingsnormen en de privacy van gevoelige gegevens waarborgen, zoals personeelsinformatie en financiële gegevens.
+    Ondersteuning: 
+	Er is een gebruikershandleiding aanwezig op de computers in de winkel, zodat personeel altijd terug kan zoeken hoe zij bepaalde handelingen kunnen verrichten.		
